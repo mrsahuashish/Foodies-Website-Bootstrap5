@@ -492,6 +492,10 @@ Responsive Design===
 
 @media (max-width: 767px) {
 
+  .navbar-brand
+  {
+    width: 52% !important;
+  }
     /* custom css */
     h1{
         font-size:2.8rem;
@@ -553,7 +557,7 @@ Responsive Design===
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
-    width: 20% !important;
+    width: 20%;
 }
 
 #logo{
